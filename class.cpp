@@ -1,14 +1,13 @@
 /*
  * ============================================================================
+ * C++OOP  --  Class
+ * 
+ * Implementation: Ali Moghanni
+ * Resources:
  *
- * Ali Moghanni
+ * This cpp file can be obtained at https://github.com/alimoghanni/C++OOP.
  *
- *    Copyright (C) 2017 - 2019
- *    Software Engineering Group
- *    Heinz Nixdorf Institute
- *    Paderborn University
- *    philipp.schubert@upb.de
- *
+ * updated: 2020-04-04
  * ============================================================================
  */
 
@@ -35,6 +34,17 @@ int main()
     cout << "First Name : " << emp1.fName << endl;
     cout << "Last Name : " << emp1.lName << endl;
     cout << "Pay : " << emp1.pay << endl;
+
+    cout << endl;
+
+    Employee emp2;
+    emp2.fName = "Jeni";
+    emp2.lName = "Tom";
+    emp2.pay = 59000;
+
+    cout << "First Name : " << emp2.fName << endl;
+    cout << "Last Name : " << emp2.lName << endl;
+    cout << "Pay : " << emp2.pay << endl;
 
     return 0;
 }
