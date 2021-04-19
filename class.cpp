@@ -1,11 +1,11 @@
 /*
  * ============================================================================
- * C++OOP  --  Class
+ * Cpp_OOP  --  Class
  * 
  * Implementation: Ali Moghanni
  * Resources:
  *
- * This cpp file can be obtained at https://github.com/alimoghanni/C++OOP.
+ * This cpp file can be obtained at https://github.com/alimoghanni/Cpp_OOP.
  *
  * updated: 2020-04-04
  * ============================================================================
