@@ -28,11 +28,13 @@ public:
         email = fName + "." + lName + "@email.com";
     }
 
+    // Member functions:
     void FullName()
     {
         cout << fName << " " << lName << endl;
     }
 
+    // Member functions:
     void GetInfo()
     {
         cout << "First Name : " << fName << endl;
