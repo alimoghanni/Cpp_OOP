@@ -23,6 +23,7 @@ public:
     double pay;
     string email;
 
+    // constructor
     Employee(string empfName, string emplName, double emppay) : fName(empfName), lName(emplName), pay(emppay) {}
 };
 

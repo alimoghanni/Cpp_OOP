@@ -17,6 +17,7 @@ using namespace std;
 
 class Employee
 {
+    // Member attributes:
 public:
     string fName;
     string lName;
@@ -27,6 +28,7 @@ public:
 int main()
 {
 
+    // An object of class Employee with attribute fName as "Alex"
     Employee emp1;
     emp1.fName = "Alex";
     emp1.lName = "Kim";
