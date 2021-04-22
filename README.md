@@ -8,7 +8,8 @@ This application contains the following subjects.
 * Classes and Objects
 * Class Methods
 * Constructors
-* Encapsulation  
+* Encapsulation 
+* Inheritance 
 * ...
 * ...
 
