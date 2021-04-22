@@ -22,6 +22,7 @@ private:
     string lName;
     double pay;
     string email;
+    double raise_amount = 1.04;
 
 public:
     Employee(string empfName, string emplName, double emppay) : fName(empfName), lName(emplName), pay(emppay) {}
@@ -43,7 +44,7 @@ public:
 
     void ApplyRaise()
     {
-        pay = pay + 100;
+        pay = pay * raise_amount;
     }
 
     void GetfName()
