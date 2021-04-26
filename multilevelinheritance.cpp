@@ -72,23 +72,34 @@ public:
 
 class CPPDeveloper : public Developer
 {
+private:
+    string prog_lang;
+
 public:
-    CPPDeveloper(string cdevfName, string cdevlName, double cdevpay) : Developer(cdevfName, cdevlName, cdevpay) {}
+    CPPDeveloper(string cdevfName, string cdevlName, double cdevpay, string cprog_lang) : Developer(cdevfName, cdevlName, cdevpay)
+    {
+        prog_lang = cprog_lang;
+    }
+
+    void GetfProg()
+    {
+        cout << "Program : " << prog_lang << endl;
+    }
 };
 
 int main()
 {
 
     Developer dev1("Alex", "Kim", 45000);
+    CPPDeveloper dev2("Jeni", "Tom", 59000, "Python");
 
     dev1.GetInfo();
-    dev1.FullName();
 
     cout << endl;
 
-    dev1.ApplyRaise(); // change the private pay value
+    dev2.GetInfo();
 
-    dev1.GetInfo();
+    dev2.GetfProg();
 
     return 0;
 }
